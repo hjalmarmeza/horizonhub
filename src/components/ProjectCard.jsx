@@ -1,7 +1,25 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const ProjectCard = ({ project }) => {
   const [imageError, setImageError] = React.useState(false);
+  const [status, setStatus] = React.useState('checking');
+
+  useEffect(() => {
+    const checkStatus = async () => {
+      // Delay to avoid network hit on mobile
+      await new Promise(r => setTimeout(r, Math.random() * 2000));
+      try {
+        const controller = new AbortController();
+        const id = setTimeout(() => controller.abort(), 8000);
+        await fetch(project.url, { mode: 'no-cors', signal: controller.signal, cache: 'no-cache' });
+        clearTimeout(id);
+        setStatus('online');
+      } catch {
+        setStatus('offline');
+      }
+    };
+    checkStatus();
+  }, [project.url]);
 
   // Artistic placeholder generator
   const getArtisticPlaceholder = (name, tag) => {
@@ -65,8 +83,9 @@ const ProjectCard = ({ project }) => {
       </div>
       <div className="project-info">
         <span className="tag">{project.tag}</span>
-        <div>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <h3>{project.name}</h3>
+          <div className={`status-indicator ${status}`} title={`Status: ${status}`}></div>
         </div>
       </div>
     </a>
