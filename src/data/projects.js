@@ -64,7 +64,7 @@ export const projects = [
     id: 'opticompra',
     name: 'OptiCompra',
     tag: 'Ahorro Inteligente',
-    url: 'https://hjalmarmeza.github.io/OptiCompra/',
+    url: 'https://ais-dev-ojbqd3dvt3wygmlbsz3mwp-210042504341.us-west1.run.app',
     image: 'logos/opticompra.png',
     featured: true
   },
