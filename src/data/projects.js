@@ -3,6 +3,7 @@ export const projects = [
     id: 'talk-me',
     name: 'Talk.me',
     tag: 'Comunicación IA',
+    description: 'Sistema de comunicación avanzada potenciado por IA para diálogos fluidos.',
     url: 'https://talk-me-six.vercel.app/',
     image: 'logos_opt/talk_me.jpg',
     featured: true
@@ -11,6 +12,7 @@ export const projects = [
     id: 'musichris',
     name: 'MusiChris',
     tag: 'Música & PWA',
+    description: 'Tu biblioteca musical personal en formato PWA con audio de alta fidelidad.',
     url: 'https://musichris.vercel.app/',
     image: 'logos_opt/musichris.jpg',
     featured: true
@@ -19,6 +21,7 @@ export const projects = [
     id: 'georadio',
     name: 'GeoRadio',
     tag: 'Streaming & Maps',
+    description: 'Explora radios de todo el mundo navegando por un mapa interactivo global.',
     url: 'https://georadio.vercel.app/',
     image: 'https://raw.githubusercontent.com/hjalmarmeza/GeoRadio/main/icons/icon-512.png',
     featured: true
@@ -27,6 +30,7 @@ export const projects = [
     id: 'jardin-historias',
     name: 'Jardín de Historias',
     tag: 'Literatura & IA',
+    description: 'Generador de cuentos infantiles personalizados usando inteligencia artificial.',
     url: 'https://jardindehistorias.vercel.app/',
     image: 'logos_opt/jardin_historias.jpg',
     featured: true
@@ -35,6 +39,7 @@ export const projects = [
     id: 'mediclock-neo',
     name: 'MediClock NEO',
     tag: 'Salud & Persistencia',
+    description: 'Gestión inteligente de medicación con recordatorios y persistencia de datos.',
     url: 'https://mediclock.vercel.app/',
     image: 'logos_opt/mediclock_neo.jpg',
     featured: true
@@ -43,6 +48,7 @@ export const projects = [
     id: 'alerta-vecinal',
     name: 'Alerta Vecinal',
     tag: 'Seguridad',
+    description: 'Red comunitaria para reportar incidentes y mejorar la seguridad del barrio.',
     url: 'https://alertavecinal.vercel.app/',
     image: 'logos_opt/alerta_vecinal.jpg'
   },
@@ -50,6 +56,7 @@ export const projects = [
     id: 'cv',
     name: 'Mi Portafolio (CV)',
     tag: 'Personal',
+    description: 'Hoja de vida digital interactiva con trayectoria y habilidades técnicas.',
     url: 'https://hjalmarmeza.github.io/cv/',
     image: 'https://raw.githubusercontent.com/hjalmarmeza/cv/main/apple-touch-icon.png'
   },
@@ -57,6 +64,7 @@ export const projects = [
     id: 'voxmind',
     name: 'Voxmind AI',
     tag: 'Asistente de Voz',
+    description: 'Interacción por voz inteligente para comandos y consultas rápidas.',
     url: 'https://voxmind.vercel.app/',
     image: 'logos_opt/voxmind_ai.jpg'
   },
@@ -64,6 +72,7 @@ export const projects = [
     id: 'opticompra',
     name: 'OptiCompra',
     tag: 'Ahorro Inteligente',
+    description: 'Optimiza tus compras analizando precios y ofertas en tiempo real.',
     url: 'https://ais-dev-ojbqd3dvt3wygmlbsz3mwp-210042504341.us-west1.run.app',
     image: 'logos_opt/opticompra.jpg',
     featured: true
@@ -72,6 +81,7 @@ export const projects = [
     id: 'qr-alacena',
     name: 'QR Alacena',
     tag: 'Gestión de Despensa',
+    description: 'Control de inventario de alimentos mediante escaneo de códigos QR.',
     url: 'https://hjalmarmeza.github.io/QRAlacena/',
     image: 'logos_opt/qr_alacena.jpg'
   },
@@ -79,6 +89,7 @@ export const projects = [
     id: 'lirica-celestial',
     name: 'Lírica Celestial Studio',
     tag: 'Composición Cristiana',
+    description: 'Herramienta creativa para compositores de música cristiana contemporánea.',
     url: 'https://ais-dev-2drkdbrfpijdxqujmz43li-210042504341.us-west1.run.app',
     image: 'logos_opt/lirica_celestial.jpg'
   },
@@ -86,14 +97,15 @@ export const projects = [
     id: 'facecut',
     name: 'FaceCut',
     tag: 'Stickers & IA',
+    description: 'Crea stickers personalizados y recortes precisos usando visión por IA.',
     url: 'https://facecut-625262028782.us-west1.run.app/',
     image: 'logos_opt/facecut.jpg'
   },
-
   {
     id: 'biblia-cool',
     name: 'Biblia-Cool',
     tag: 'Estudio Bíblico',
+    description: 'Explora las escrituras con una interfaz moderna y herramientas de estudio.',
     url: 'https://biblia-cool-238090767699.us-west1.run.app',
     image: 'logos_opt/biblia_cool.jpg',
     featured: true
@@ -101,78 +113,24 @@ export const projects = [
   {
     id: 'scripto',
     name: 'Scripto',
-    tag: 'Procesamiento de Datos / Documentos',
+    tag: 'Procesamiento de Datos',
+    description: 'Automatización y procesamiento avanzado de documentos y grandes volúmenes de datos.',
     url: 'https://ais-dev-mdalguefleqdrtydwomoni-210042504341.us-west1.run.app',
     image: 'logos_opt/scripto.jpg'
-  },
-  {
-    id: 'style-tara',
-    name: 'Style TARA',
-    tag: 'Tendencias de Moda',
-    url: 'https://style-tara-725086373342.us-west1.run.app',
-    image: 'logos_opt/style_tara.jpg'
   },
   {
     id: 'allivision',
     name: 'Allivisión',
     tag: 'Salud Ocular',
+    description: 'Ejercicios y herramientas para el cuidado preventivo de la visión.',
     url: 'https://allivision.vercel.app/',
     image: 'logos_opt/allivision.jpg'
-  },
-  {
-    id: 'sistema-restaurante',
-    name: 'Sistema Restaurante',
-    tag: 'Gestión',
-    url: 'https://hjalmarmeza.github.io/sistema-restaurante/',
-    image: 'logos_opt/sistema_restaurante.jpg'
-  },
-  {
-    id: 'qr-vcard',
-    name: 'QR Vcard',
-    tag: 'Networking',
-    url: 'https://hjalmarmeza.github.io/qrvcard/',
-    image: 'logos_opt/qr_vcard.jpg'
-  },
-  {
-    id: 'vigilante-privacidad',
-    name: 'Vigilante Privacidad',
-    tag: 'Seguridad',
-    url: 'https://hjalmarmeza.github.io/vigilante-privacidad/',
-    image: 'logos_opt/vigilante_privacidad.jpg'
-  },
-  {
-    id: 'linkedin-ia',
-    name: 'LinkedIn IA',
-    tag: 'Productividad',
-    url: 'https://hjalmarmeza.github.io/linkedin-ia/',
-    image: 'logos_opt/linkedin_ia.jpg'
-  },
-
-  {
-    id: 'command-center',
-    name: 'Meza Command Center',
-    tag: 'Backoffice',
-    url: 'https://hjalmarmeza.github.io/Meza-Command-Center/',
-    image: 'logos_opt/command-center.jpg'
-  },
-  {
-    id: 'whatsapp-bot',
-    name: 'Bot Alerta WhatsApp',
-    tag: 'Automatización',
-    url: 'https://github.com/hjalmarmeza/whatsapp-alerta-bot',
-    image: 'logos_opt/whatsapp-bot.jpg'
-  },
-  {
-    id: 'chartless',
-    name: 'Chartless',
-    tag: 'Juego IA',
-    url: 'https://hjalmarmeza.github.io/chartless/',
-    image: 'logos_opt/laberinto_silencioso.jpg'
   },
   {
     id: 'moodweather',
     name: 'MoodWeather',
     tag: 'Clima & Emoción',
+    description: 'Cómo el clima influye en tu estado de ánimo con visualizaciones dinámicas.',
     url: 'https://hjalmarmeza.github.io/moodweather/',
     image: 'logos_opt/mood_weather.jpg'
   },
@@ -180,22 +138,16 @@ export const projects = [
     id: 'kopilot',
     name: 'Kopilot',
     tag: 'Asistente de Código',
+    description: 'Asistente inteligente para desarrolladores que optimiza el flujo de programación.',
     url: 'https://hjalmarmeza.github.io/kopilot/',
     image: 'logos_opt/kopilot.jpg'
   },
   {
-    id: 'handracer',
-    name: 'HandRacer',
-    tag: 'Juego WebCam',
-    url: 'https://hjalmarmeza.github.io/handracer/',
-    image: 'logos_opt/handracer.jpg'
-  },
-  {
-    id: 'vcard',
-    name: 'Mi Digital VCard',
-    tag: 'Networking',
-    url: 'https://hjalmarmeza.github.io/vcard/',
-    image: 'https://raw.githubusercontent.com/hjalmarmeza/vcard/main/apple-touch-icon.png'
-  },
-
+    id: 'command-center',
+    name: 'Meza Command Center',
+    tag: 'Backoffice',
+    description: 'Panel centralizado para el control de operaciones y servicios.',
+    url: 'https://hjalmarmeza.github.io/Meza-Command-Center/',
+    image: 'logos_opt/command-center.jpg'
+  }
 ];

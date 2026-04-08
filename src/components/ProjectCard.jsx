@@ -63,6 +63,7 @@ const ProjectCard = ({ project }) => {
     <a 
       href={project.url} 
       className={`project-card ${project.featured ? 'featured' : ''}`}
+      data-category={project.tag}
       target="_blank" 
       rel="noopener noreferrer"
     >
@@ -87,6 +88,9 @@ const ProjectCard = ({ project }) => {
           <h3>{project.name}</h3>
           <div className={`status-indicator ${status}`} title={`Status: ${status}`}></div>
         </div>
+        {project.description && (
+          <p className="project-description">{project.description}</p>
+        )}
       </div>
     </a>
   );
