@@ -89,27 +89,7 @@ export const projects = [
     url: 'https://facecut-625262028782.us-west1.run.app/',
     image: 'logos/facecut.png'
   },
-  {
-    id: 'asesor-estilo',
-    name: 'Asesor de Estilo IA',
-    tag: 'Cosmética & Imagen',
-    url: 'https://hjalmarmeza.github.io/AsesorEstilo/',
-    image: 'logos/asesor_estilo.png'
-  },
-  {
-    id: 'curador-fotos',
-    name: 'Curador de Fotos Inteligente',
-    tag: 'Fotografía & Filtros',
-    url: 'https://hjalmarmeza.github.io/CuradorFotos/',
-    image: 'logos/curador_fotos.png'
-  },
-  {
-    id: 'asistente-digitalizacion',
-    name: 'Asistente de Digitalización',
-    tag: 'Productividad',
-    url: 'https://hjalmarmeza.github.io/Digitalizacion/',
-    image: 'logos/asistente_digitalizacion.png'
-  },
+
   {
     id: 'biblia-cool',
     name: 'Biblia-Cool',
@@ -121,7 +101,7 @@ export const projects = [
   {
     id: 'scripto',
     name: 'Scripto',
-    tag: 'Generador de Guiones',
+    tag: 'Procesamiento de Datos / Documentos',
     url: 'https://ais-dev-mdalguefleqdrtydwomoni-210042504341.us-west1.run.app',
     image: 'logos/scripto.png'
   },
