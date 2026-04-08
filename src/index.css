@@ -192,30 +192,33 @@ body {
   overflow: hidden;
 }
 
-/* Category Glowing (Crystal Morphing) */
+/* Category Glowing (Crystal Morphing - Pronounced) */
 .project-card::before {
   content: '';
   position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: radial-gradient(circle at center, var(--glow-color, rgba(255,255,255,0.1)) 0%, transparent 60%);
-  opacity: 0;
-  transition: opacity 0.6s ease;
+  top: -25%;
+  left: -25%;
+  width: 150%;
+  height: 150%;
+  background: radial-gradient(circle at center, var(--glow-color, rgba(255,255,255,0.2)) 0%, transparent 75%);
+  opacity: 0.1; /* Ambient glow */
+  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
   pointer-events: none;
   z-index: 0;
 }
 
 .project-card:hover::before {
   opacity: 1;
+  background: radial-gradient(circle at center, var(--glow-color, rgba(255,255,255,0.4)) 0%, transparent 85%);
 }
 
-.project-card[data-category*="IA"] { --glow-color: rgba(0, 122, 255, 0.15); }
-.project-card[data-category*="Salud"] { --glow-color: rgba(255, 45, 85, 0.15); }
-.project-card[data-category*="Finanzas"] { --glow-color: rgba(52, 199, 89, 0.15); }
-.project-card[data-category*="Música"] { --glow-color: rgba(175, 82, 222, 0.15); }
-.project-card[data-category*="Seguridad"] { --glow-color: rgba(255, 149, 0, 0.15); }
+.project-card[data-category*="IA"] { --glow-color: rgba(0, 150, 255, 0.6); }
+.project-card[data-category*="Salud"] { --glow-color: rgba(255, 0, 100, 0.6); }
+.project-card[data-category*="Finanzas"] { --glow-color: rgba(0, 255, 100, 0.6); }
+.project-card[data-category*="Música"] { --glow-color: rgba(180, 0, 255, 0.6); }
+.project-card[data-category*="Seguridad"] { --glow-color: rgba(255, 120, 0, 0.6); }
+.project-card[data-category*="Personal"] { --glow-color: rgba(255, 255, 255, 0.6); }
+.project-card[data-category*="Gestión"] { --glow-color: rgba(255, 255, 0, 0.6); }
 
 .project-description {
   font-size: 0.85rem;
