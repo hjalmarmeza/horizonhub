@@ -4,7 +4,6 @@ import ProjectCard from './components/ProjectCard';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
-  const [viewType, setViewType] = useState('grid');
   const [showNews, setShowNews] = useState(false);
   const [news, setNews] = useState([]);
   
@@ -61,22 +60,7 @@ function App() {
         </div>
       </section>
 
-      <div className="controls-bar">
-        <div className="view-switcher">
-          <button 
-            className={`view-btn ${viewType === 'grid' ? 'active' : ''}`}
-            onClick={() => setViewType('grid')}
-          >
-            🧩 Rejilla
-          </button>
-          <button 
-            className={`view-btn ${viewType === 'list' ? 'active' : ''}`}
-            onClick={() => setViewType('list')}
-          >
-            ☰ Lista
-          </button>
-        </div>
-
+      <div className="controls-bar" style={{justifyContent: 'flex-end'}}>
         <div className="news-bell" onClick={() => setShowNews(!showNews)}>
           <span>🔔</span>
           {news.length > 0 && <div className="news-badge"></div>}
@@ -103,12 +87,11 @@ function App() {
       )}
 
       <main>
-        <section className={`launchpad-grid ${viewType === 'list' ? 'list-view' : ''}`}>
+        <section className="launchpad-grid">
           {filteredProjects.map(project => (
             <ProjectCard 
               key={project.id} 
               project={project} 
-              viewType={viewType} 
             />
           ))}
         </section>
