@@ -55,6 +55,8 @@ const ProjectCard = ({ project }) => {
             src={project.image} 
             alt={project.name} 
             loading="lazy"
+            decoding="async"
+            fetchpriority={project.featured ? "high" : "low"}
             onError={() => setImageError(true)}
           />
         ) : (
