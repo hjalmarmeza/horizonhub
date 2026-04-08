@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "title": "Horizon Hub v2.0",
+    "content": "¡Bienvenido a la nueva era! Hemos optimizado el Hub para una velocidad extrema y estética Apple mejorada.",
+    "date": "2026-04-08",
+    "type": "update"
+  },
+  {
+    "id": "2",
+    "title": "OptiCompra Upgrade",
+    "content": "Se han integrado nuevas funciones de ahorro inteligente en tiempo real.",
+    "date": "2026-04-08",
+    "type": "feature"
+  }
+]

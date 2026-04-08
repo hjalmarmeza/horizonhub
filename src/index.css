@@ -7,6 +7,8 @@
   --apple-radius: 24px;
   --apple-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
   --apple-hover-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+  --status-online: #34c759;
+  --status-offline: #ff3b30;
   /* Safe Area Insets for iPhone Dynamic Island/Notch */
   --safe-top: env(safe-area-inset-top, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
@@ -117,11 +119,185 @@ body {
   color: rgba(255,255,255,0.6);
 }
 
-.search-input:focus {
-  outline: none;
-  background: rgba(255, 255, 255, 0.25);
-  transform: scale(1.02);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+/* Controls Section */
+.controls-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+
+.view-switcher {
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 4px;
+  border-radius: 12px;
+  gap: 4px;
+}
+
+.view-btn {
+  border: none;
+  background: transparent;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  opacity: 0.6;
+}
+
+.view-btn.active {
+  background: rgba(255, 255, 255, 0.2);
+  opacity: 1;
+}
+
+.news-bell {
+  position: relative;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.news-bell:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.news-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #ff3b30;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #1c1c1e;
+}
+
+/* News Panel */
+.news-panel {
+  position: fixed;
+  top: 100px;
+  right: 40px;
+  width: 350px;
+  background: rgba(30, 30, 30, 0.85);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border-radius: 28px;
+  padding: 24px;
+  z-index: 1000;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+  animation: slideInRight 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(50px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.news-item {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.news-item:last-child {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.news-item h4 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+  color: white;
+}
+
+.news-item p {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.4;
+}
+
+/* List View Styles */
+.launchpad-grid.list-view {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.list-view .project-card {
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 20px;
+  height: auto;
+}
+
+.list-view .image-container {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.list-view .placeholder-emoji {
+  font-size: 1.5rem;
+}
+
+.list-view .placeholder-text-inner {
+  display: none;
+}
+
+.list-view .project-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
+
+.list-view .project-info h3 {
+  font-size: 1.1rem;
+  margin: 0;
+  margin-right: 15px;
+}
+
+.list-view .tag {
+  margin-bottom: 0;
+  margin-right: 15px;
+  font-size: 0.7rem;
+}
+
+.status-indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-left: auto;
+  box-shadow: 0 0 10px currentColor;
+}
+
+.status-indicator.online { color: var(--status-online); background: currentColor; }
+.status-indicator.offline { color: var(--status-offline); background: currentColor; }
+.status-indicator.checking { color: rgba(255,255,255,0.3); background: currentColor; }
+
+.github-meta {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 5px;
+}
+
+.list-view .github-meta {
+  margin-top: 0;
+  margin-left: 20px;
 }
 
 .launchpad-grid {

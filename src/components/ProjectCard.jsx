@@ -1,7 +1,31 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
-const ProjectCard = ({ project }) => {
+const ProjectCard = ({ project, viewType }) => {
   const [imageError, setImageError] = React.useState(false);
+  const [status, setStatus] = React.useState('checking');
+
+  useEffect(() => {
+    // REAL Health Dashboard Status
+    const checkStatus = async () => {
+      try {
+        const controller = new AbortController();
+        const id = setTimeout(() => controller.abort(), 5000);
+        
+        await fetch(project.url, { 
+          mode: 'no-cors', 
+          signal: controller.signal 
+        });
+        
+        clearTimeout(id);
+        setStatus('online');
+      } catch {
+        // If it's a Vercel/Public URL and fails, it might be offline
+        setStatus('offline');
+      }
+    };
+
+    checkStatus();
+  }, [project.url]);
 
   // Artistic placeholder generator
   const getArtisticPlaceholder = (name, tag) => {
@@ -48,7 +72,7 @@ const ProjectCard = ({ project }) => {
       target="_blank" 
       rel="noopener noreferrer"
     >
-      {project.featured && <div className="featured-badge">Destacado</div>}
+      {project.featured && viewType === 'grid' && <div className="featured-badge">Destacado</div>}
       <div className="image-container">
         {!imageError && project.image ? (
           <img 
@@ -65,7 +89,13 @@ const ProjectCard = ({ project }) => {
       </div>
       <div className="project-info">
         <span className="tag">{project.tag}</span>
-        <h3>{project.name}</h3>
+        <div>
+          <h3>{project.name}</h3>
+          <div className="github-meta">
+            {project.featured ? '🚀 Producción Elite' : '✨ v1.0.4'}
+          </div>
+        </div>
+        <div className={`status-indicator ${status}`} title={`Status: ${status}`}></div>
       </div>
     </a>
   );
