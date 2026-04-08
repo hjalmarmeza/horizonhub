@@ -45,7 +45,7 @@ body {
   margin-top: 40px;
   margin-bottom: 60px;
   border-radius: 32px;
-  background: url('/hero-bg.png') no-repeat center center;
+  background: linear-gradient(135deg, #0a0a0c 0%, #1a1a2e 50%, #0a0a0c 100%);
   background-size: cover;
   position: relative;
   overflow: hidden;
@@ -272,6 +272,11 @@ footer {
 .launchpad-grid {
   content-visibility: auto;
   contain-intrinsic-size: 1000px;
+}
+
+img {
+  image-rendering: -webkit-optimize-contrast;
+  transform: translateZ(0);
 }
 
 @media (max-width: 768px) {
