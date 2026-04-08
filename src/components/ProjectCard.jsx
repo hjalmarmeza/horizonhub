@@ -54,6 +54,7 @@ const ProjectCard = ({ project }) => {
           <img 
             src={project.image} 
             alt={project.name} 
+            loading="lazy"
             onError={() => setImageError(true)}
           />
         ) : (

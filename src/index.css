@@ -49,9 +49,10 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  box-shadow: 0 30px 60px -10px rgba(0,0,0,0.3);
+  box-shadow: 0 20px 40px -10px rgba(0,0,0,0.3);
   border: 1px solid rgba(255,255,255,0.1);
-  animation: heroPulse 10s infinite alternate ease-in-out;
+  animation: heroPulse 12s infinite alternate ease-in-out;
+  will-change: transform;
 }
 
 .hero-section::before {
@@ -97,9 +98,9 @@ body {
   padding: 16px 24px;
   border-radius: 18px;
   border: none;
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(25px);
-  -webkit-backdrop-filter: blur(25px);
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   color: white;
   font-family: inherit;
   font-size: 1.1rem;
@@ -129,8 +130,8 @@ body {
   text-decoration: none;
   color: inherit;
   background: var(--apple-card-bg);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border-radius: var(--apple-radius);
   padding: 24px;
   display: flex;
@@ -140,6 +141,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.4);
   overflow: hidden;
   position: relative;
+  will-change: transform, box-shadow;
 }
 
 .project-card:hover {

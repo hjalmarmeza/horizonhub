@@ -122,7 +122,7 @@ export const projects = [
     id: 'scripto',
     name: 'Scripto',
     tag: 'Generador de Guiones',
-    url: 'https://aistudio.google.com/apps/drive/1jDKNP6XyHFR80_1WG_6tF0ICRHHgEEl1?showPreview=true&showAssistant=true',
+    url: 'https://ais-dev-mdalguefleqdrtydwomoni-210042504341.us-west1.run.app',
     image: 'logos/scripto.png'
   },
   {
