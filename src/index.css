@@ -185,7 +185,7 @@ body {
 /* Crystal Morphing & Quick Preview */
 .project-card {
   position: relative;
-  background: rgba(255, 255, 255, 0.7);
+  background: var(--card-bg-crystal, rgba(255, 255, 255, 0.7));
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -229,7 +229,10 @@ body {
 .project-card[data-category*="Voz"] { --glow-color: rgba(255, 120, 0, 0.7); } /* Orange/Melon */
 
 .project-card[data-category*="Personal"], 
-.project-card[data-category*="Networking"] { --glow-color: rgba(255, 215, 0, 0.7); } /* Gold/Amber */
+.project-card[data-category*="Networking"] { 
+  --glow-color: rgba(255, 180, 0, 0.8); 
+  --card-bg-crystal: rgba(255, 240, 200, 0.75);
+} /* Gold/Amber Deep */
 
 .project-description {
   font-size: 0.85rem;
@@ -238,6 +241,7 @@ body {
   margin-top: 10px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
   opacity: 0;
@@ -255,6 +259,7 @@ body {
     opacity: 0.8;
     transform: none;
     -webkit-line-clamp: 3;
+    line-clamp: 3;
   }
 }
 
