@@ -79,7 +79,7 @@ export const projects = [
     id: 'lirica-celestial',
     name: 'Lírica Celestial Studio',
     tag: 'Composición Cristiana',
-    url: 'https://hjalmarmeza.github.io/LiricaCelestial/',
+    url: 'https://ais-dev-2drkdbrfpijdxqujmz43li-210042504341.us-west1.run.app',
     image: '/logos/lirica_celestial.png'
   },
   {
