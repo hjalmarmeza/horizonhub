@@ -4,7 +4,7 @@ export const projects = [
     name: 'Talk.me',
     tag: 'Comunicación IA',
     url: 'https://talk-me-six.vercel.app/',
-    image: 'logos/talk_me.png',
+    image: 'logos_opt/talk_me.jpg',
     featured: true
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     name: 'MusiChris',
     tag: 'Música & PWA',
     url: 'https://musichris.vercel.app/',
-    image: 'logos/musichris.png',
+    image: 'logos_opt/musichris.jpg',
     featured: true
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     name: 'Jardín de Historias',
     tag: 'Literatura & IA',
     url: 'https://jardindehistorias.vercel.app/',
-    image: 'logos/jardin_historias.png',
+    image: 'logos_opt/jardin_historias.jpg',
     featured: true
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     name: 'MediClock NEO',
     tag: 'Salud & Persistencia',
     url: 'https://mediclock.vercel.app/',
-    image: 'logos/mediclock_neo.png',
+    image: 'logos_opt/mediclock_neo.jpg',
     featured: true
   },
   {
@@ -44,7 +44,7 @@ export const projects = [
     name: 'Alerta Vecinal',
     tag: 'Seguridad',
     url: 'https://alertavecinal.vercel.app/',
-    image: 'logos/alerta_vecinal.png'
+    image: 'logos_opt/alerta_vecinal.jpg'
   },
   {
     id: 'cv',
@@ -58,14 +58,14 @@ export const projects = [
     name: 'Voxmind AI',
     tag: 'Asistente de Voz',
     url: 'https://voxmind.vercel.app/',
-    image: 'logos/voxmind_ai.png'
+    image: 'logos_opt/voxmind_ai.jpg'
   },
   {
     id: 'opticompra',
     name: 'OptiCompra',
     tag: 'Ahorro Inteligente',
     url: 'https://ais-dev-ojbqd3dvt3wygmlbsz3mwp-210042504341.us-west1.run.app',
-    image: 'logos/opticompra.png',
+    image: 'logos_opt/opticompra.jpg',
     featured: true
   },
   {
@@ -73,21 +73,21 @@ export const projects = [
     name: 'QR Alacena',
     tag: 'Gestión de Despensa',
     url: 'https://hjalmarmeza.github.io/QRAlacena/',
-    image: 'logos/qr_alacena.png'
+    image: 'logos_opt/qr_alacena.jpg'
   },
   {
     id: 'lirica-celestial',
     name: 'Lírica Celestial Studio',
     tag: 'Composición Cristiana',
     url: 'https://ais-dev-2drkdbrfpijdxqujmz43li-210042504341.us-west1.run.app',
-    image: 'logos/lirica_celestial.png'
+    image: 'logos_opt/lirica_celestial.jpg'
   },
   {
     id: 'facecut',
     name: 'FaceCut',
     tag: 'Stickers & IA',
     url: 'https://facecut-625262028782.us-west1.run.app/',
-    image: 'logos/facecut.png'
+    image: 'logos_opt/facecut.jpg'
   },
 
   {
@@ -95,7 +95,7 @@ export const projects = [
     name: 'Biblia-Cool',
     tag: 'Estudio Bíblico',
     url: 'https://biblia-cool-238090767699.us-west1.run.app',
-    image: 'logos/biblia_cool.png',
+    image: 'logos_opt/biblia_cool.jpg',
     featured: true
   },
   {
@@ -103,49 +103,49 @@ export const projects = [
     name: 'Scripto',
     tag: 'Procesamiento de Datos / Documentos',
     url: 'https://ais-dev-mdalguefleqdrtydwomoni-210042504341.us-west1.run.app',
-    image: 'logos/scripto.png'
+    image: 'logos_opt/scripto.jpg'
   },
   {
     id: 'style-tara',
     name: 'Style TARA',
     tag: 'Tendencias de Moda',
     url: 'https://style-tara-725086373342.us-west1.run.app',
-    image: 'logos/style_tara.png'
+    image: 'logos_opt/style_tara.jpg'
   },
   {
     id: 'allivision',
     name: 'Allivisión',
     tag: 'Salud Ocular',
     url: 'https://allivision.vercel.app/',
-    image: 'logos/allivision.png'
+    image: 'logos_opt/allivision.jpg'
   },
   {
     id: 'sistema-restaurante',
     name: 'Sistema Restaurante',
     tag: 'Gestión',
     url: 'https://hjalmarmeza.github.io/sistema-restaurante/',
-    image: 'logos/sistema_restaurante.png'
+    image: 'logos_opt/sistema_restaurante.jpg'
   },
   {
     id: 'qr-vcard',
     name: 'QR Vcard',
     tag: 'Networking',
     url: 'https://hjalmarmeza.github.io/qrvcard/',
-    image: 'logos/qr_vcard.png'
+    image: 'logos_opt/qr_vcard.jpg'
   },
   {
     id: 'vigilante-privacidad',
     name: 'Vigilante Privacidad',
     tag: 'Seguridad',
     url: 'https://hjalmarmeza.github.io/vigilante-privacidad/',
-    image: 'logos/vigilante_privacidad.png'
+    image: 'logos_opt/vigilante_privacidad.jpg'
   },
   {
     id: 'linkedin-ia',
     name: 'LinkedIn IA',
     tag: 'Productividad',
     url: 'https://hjalmarmeza.github.io/linkedin-ia/',
-    image: 'logos/linkedin_ia.png'
+    image: 'logos_opt/linkedin_ia.jpg'
   },
 
   {
@@ -153,42 +153,42 @@ export const projects = [
     name: 'Meza Command Center',
     tag: 'Backoffice',
     url: 'https://hjalmarmeza.github.io/Meza-Command-Center/',
-    image: 'logos/command-center.png'
+    image: 'logos_opt/command-center.jpg'
   },
   {
     id: 'whatsapp-bot',
     name: 'Bot Alerta WhatsApp',
     tag: 'Automatización',
     url: 'https://github.com/hjalmarmeza/whatsapp-alerta-bot',
-    image: 'logos/whatsapp-bot.png'
+    image: 'logos_opt/whatsapp-bot.jpg'
   },
   {
     id: 'chartless',
     name: 'Chartless',
     tag: 'Juego IA',
     url: 'https://hjalmarmeza.github.io/chartless/',
-    image: 'logos/laberinto_silencioso.png'
+    image: 'logos_opt/laberinto_silencioso.jpg'
   },
   {
     id: 'moodweather',
     name: 'MoodWeather',
     tag: 'Clima & Emoción',
     url: 'https://hjalmarmeza.github.io/moodweather/',
-    image: 'logos/mood_weather.png'
+    image: 'logos_opt/mood_weather.jpg'
   },
   {
     id: 'kopilot',
     name: 'Kopilot',
     tag: 'Asistente de Código',
     url: 'https://hjalmarmeza.github.io/kopilot/',
-    image: 'logos/kopilot.png'
+    image: 'logos_opt/kopilot.jpg'
   },
   {
     id: 'handracer',
     name: 'HandRacer',
     tag: 'Juego WebCam',
     url: 'https://hjalmarmeza.github.io/handracer/',
-    image: 'logos/handracer.png'
+    image: 'logos_opt/handracer.jpg'
   },
   {
     id: 'vcard',
