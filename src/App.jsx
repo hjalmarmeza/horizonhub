@@ -12,7 +12,7 @@ function App() {
     // Fetch News Feed with cache busting
     const fetchNews = async () => {
       try {
-        const response = await fetch(`./news.json?t=${Date.now()}`);
+        const response = await fetch('./news.json?t=' + Date.now());
         const data = await response.json();
         setNews(data);
       } catch (err) {
@@ -105,7 +105,11 @@ function App() {
       <main>
         <section className={`launchpad-grid ${viewType === 'list' ? 'list-view' : ''}`}>
           {filteredProjects.map(project => (
-            <ProjectCard key={project.id} project={project} viewType={viewType} />
+            <ProjectCard 
+              key={project.id} 
+              project={project} 
+              viewType={viewType} 
+            />
           ))}
         </section>
       </main>

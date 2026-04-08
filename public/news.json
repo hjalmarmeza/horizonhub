@@ -1,16 +1,23 @@
 [
   {
-    "id": "1",
-    "title": "Horizon Hub v2.0",
-    "content": "¡Bienvenido a la nueva era! Hemos optimizado el Hub para una velocidad extrema y estética Apple mejorada.",
+    "id": "3",
+    "title": "Horizon Hub v2.0.1 (Live)",
+    "content": "¡Actualización crítica completada! Se han optimizado todos los iconos y logos del ecosistema para una carga instantánea.",
     "date": "2026-04-08",
     "type": "update"
   },
   {
     "id": "2",
-    "title": "OptiCompra Upgrade",
-    "content": "Se han integrado nuevas funciones de ahorro inteligente en tiempo real.",
+    "title": "Optimización de Velocidad",
+    "content": "Hemos reducido el peso de la plataforma de 60MB a menos de 2MB. Ahora vuela en cualquier dispositivo.",
     "date": "2026-04-08",
     "type": "feature"
+  },
+  {
+    "id": "1",
+    "title": "Dashboard de Estatus",
+    "content": "Monitoreo en tiempo real de tus proyectos ahora disponible en cada widget.",
+    "date": "2026-04-08",
+    "type": "update"
   }
 ]
