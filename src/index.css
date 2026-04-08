@@ -212,13 +212,24 @@ body {
   background: radial-gradient(circle at center, var(--glow-color, rgba(255,255,255,0.4)) 0%, transparent 85%);
 }
 
-.project-card[data-category*="IA"] { --glow-color: rgba(0, 150, 255, 0.6); }
-.project-card[data-category*="Salud"] { --glow-color: rgba(255, 0, 100, 0.6); }
-.project-card[data-category*="Finanzas"] { --glow-color: rgba(0, 255, 100, 0.6); }
-.project-card[data-category*="Música"] { --glow-color: rgba(180, 0, 255, 0.6); }
-.project-card[data-category*="Seguridad"] { --glow-color: rgba(255, 120, 0, 0.6); }
-.project-card[data-category*="Personal"] { --glow-color: rgba(255, 255, 255, 0.6); }
-.project-card[data-category*="Gestión"] { --glow-color: rgba(255, 255, 0, 0.6); }
+.project-card[data-category*="IA"], 
+.project-card[data-category*="Inteligente"] { --glow-color: rgba(0, 150, 255, 0.7); } /* Azure/Blue */
+
+.project-card[data-category*="Salud"], 
+.project-card[data-category*="Estudio"] { --glow-color: rgba(255, 0, 100, 0.7); } /* Pink/Red */
+
+.project-card[data-category*="Ahorro"], 
+.project-card[data-category*="Finanzas"], 
+.project-card[data-category*="Gestión"] { --glow-color: rgba(0, 255, 120, 0.7); } /* Emerald Green */
+
+.project-card[data-category*="Música"], 
+.project-card[data-category*="Composición"] { --glow-color: rgba(180, 0, 255, 0.7); } /* Purple */
+
+.project-card[data-category*="Seguridad"], 
+.project-card[data-category*="Voz"] { --glow-color: rgba(255, 120, 0, 0.7); } /* Orange/Melon */
+
+.project-card[data-category*="Personal"], 
+.project-card[data-category*="Networking"] { --glow-color: rgba(255, 255, 255, 0.7); } /* Pure White */
 
 .project-description {
   font-size: 0.85rem;
