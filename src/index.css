@@ -229,7 +229,7 @@ body {
 .project-card[data-category*="Voz"] { --glow-color: rgba(255, 120, 0, 0.7); } /* Orange/Melon */
 
 .project-card[data-category*="Personal"], 
-.project-card[data-category*="Networking"] { --glow-color: rgba(255, 255, 255, 0.7); } /* Pure White */
+.project-card[data-category*="Networking"] { --glow-color: rgba(255, 215, 0, 0.7); } /* Gold/Amber */
 
 .project-description {
   font-size: 0.85rem;
