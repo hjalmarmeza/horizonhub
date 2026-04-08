@@ -2,18 +2,19 @@
   "name": "HORIZON HUB | Ecosistema Digital",
   "short_name": "HORIZON HUB",
   "description": "Tu ecosistema de aplicaciones, a un clic de distancia.",
-  "start_url": "/",
+  "start_url": "/horizonhub/",
   "display": "standalone",
   "background_color": "#f5f5f7",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/hjalmarmeza/cv/main/apple-touch-icon.png",
+      "src": "apple-touch-icon.png",
       "sizes": "180x180",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "https://raw.githubusercontent.com/hjalmarmeza/GeoRadio/main/icons/icon-512.png",
+      "src": "apple-touch-icon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
