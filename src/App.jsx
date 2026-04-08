@@ -9,11 +9,17 @@ function App() {
   const [news, setNews] = useState([]);
   
   useEffect(() => {
-    // Fetch News Feed
-    fetch('/horizonhub/news.json')
-      .then(res => res.json())
-      .then(data => setNews(data))
-      .catch(err => console.log('News fail:', err));
+    // Fetch News Feed with cache busting
+    const fetchNews = async () => {
+      try {
+        const response = await fetch(`./news.json?t=${Date.now()}`);
+        const data = await response.json();
+        setNews(data);
+      } catch (err) {
+        console.error('News fetch failed:', err);
+      }
+    };
+    fetchNews();
 
     // iOS Background Heartbeat Activator
     function initAudioHack() {

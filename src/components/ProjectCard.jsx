@@ -7,19 +7,23 @@ const ProjectCard = ({ project, viewType }) => {
   useEffect(() => {
     // REAL Health Dashboard Status
     const checkStatus = async () => {
+      // Delay to avoid mobile network hit
+      await new Promise(r => setTimeout(r, Math.random() * 3000));
+      
       try {
         const controller = new AbortController();
-        const id = setTimeout(() => controller.abort(), 5000);
+        const id = setTimeout(() => controller.abort(), 8000);
         
         await fetch(project.url, { 
           mode: 'no-cors', 
-          signal: controller.signal 
+          signal: controller.signal,
+          cache: 'no-cache'
         });
         
         clearTimeout(id);
         setStatus('online');
       } catch {
-        // If it's a Vercel/Public URL and fails, it might be offline
+        // Fallback for strict mobile browsers
         setStatus('offline');
       }
     };
