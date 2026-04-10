@@ -4,7 +4,7 @@ export const projects = [
     name: 'Talk.me',
     tag: 'Comunicación IA',
     description: 'Sistema de comunicación avanzada potenciado por IA para diálogos fluidos.',
-    url: 'https://talk-me-six.vercel.app/',
+    url: 'https://hjalmarmeza.github.io/talk.me/',
     image: 'logos_opt/talk_me.jpg',
     featured: true
   },
@@ -22,7 +22,7 @@ export const projects = [
     name: 'GeoRadio',
     tag: 'Streaming & Maps',
     description: 'Explora radios de todo el mundo navegando por un mapa interactivo global.',
-    url: 'https://georadio.vercel.app/',
+    url: 'https://hjalmarmeza.github.io/GeoRadio/',
     image: 'https://raw.githubusercontent.com/hjalmarmeza/GeoRadio/main/icons/icon-512.png',
     featured: true
   },
@@ -31,7 +31,7 @@ export const projects = [
     name: 'Jardín de Historias',
     tag: 'Literatura & IA',
     description: 'Generador de cuentos infantiles personalizados usando inteligencia artificial.',
-    url: 'https://jardindehistorias.vercel.app/',
+    url: 'https://hjalmarmeza.github.io/jardindehistorias/',
     image: 'logos_opt/jardin_historias.jpg',
     featured: true
   },
@@ -40,7 +40,7 @@ export const projects = [
     name: 'MediClock NEO',
     tag: 'Salud & Persistencia',
     description: 'Gestión inteligente de medicación con recordatorios y persistencia de datos.',
-    url: 'https://mediclock.vercel.app/',
+    url: 'https://hjalmarmeza.github.io/Mediclock/',
     image: 'logos_opt/mediclock_neo.jpg',
     featured: true
   },
@@ -49,7 +49,7 @@ export const projects = [
     name: 'Alerta Vecinal',
     tag: 'Seguridad',
     description: 'Red comunitaria para reportar incidentes y mejorar la seguridad del barrio.',
-    url: 'https://alertavecinal.vercel.app/',
+    url: 'https://hjalmarmeza.github.io/alertavecinal/',
     image: 'logos_opt/alerta_vecinal.jpg'
   },
   {
@@ -65,7 +65,7 @@ export const projects = [
     name: 'Voxmind AI',
     tag: 'Asistente de Voz',
     description: 'Interacción por voz inteligente para comandos y consultas rápidas.',
-    url: 'https://voxmind.vercel.app/',
+    url: 'https://hjalmarmeza.github.io/Voxmind_AI/',
     image: 'logos_opt/voxmind_ai.jpg'
   },
   {
@@ -123,7 +123,7 @@ export const projects = [
     name: 'Allivisión',
     tag: 'Salud Ocular',
     description: 'Ejercicios y herramientas para el cuidado preventivo de la visión.',
-    url: 'https://allivision.vercel.app/',
+    url: 'https://hjalmarmeza.github.io/allivision/',
     image: 'logos_opt/allivision.jpg'
   },
   {
