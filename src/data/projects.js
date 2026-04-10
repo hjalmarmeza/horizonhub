@@ -13,7 +13,7 @@ export const projects = [
     name: 'MusiChris',
     tag: 'Música & PWA',
     description: 'Tu biblioteca musical personal en formato PWA con audio de alta fidelidad.',
-    url: 'https://musichris.vercel.app/',
+    url: 'https://hjalmarmeza.github.io/MusiChris-App/',
     image: 'logos_opt/musichris.jpg',
     featured: true
   },
