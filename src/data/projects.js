@@ -90,27 +90,6 @@ export const projects = [
     image: 'logos_opt/facecut.jpg'
   },
   {
-    id: 'asesor-estilo',
-    name: 'Asesor de Estilo IA',
-    tag: 'Cosmética & Imagen',
-    url: 'https://hjalmarmeza.github.io/AsesorEstilo/',
-    image: 'logos_opt/asesor_estilo.jpg'
-  },
-  {
-    id: 'curador-fotos',
-    name: 'Curador de Fotos Inteligente',
-    tag: 'Fotografía & Filtros',
-    url: 'https://hjalmarmeza.github.io/CuradorFotos/',
-    image: 'logos_opt/curador_fotos.jpg'
-  },
-  {
-    id: 'asistente-digitalizacion',
-    name: 'Asistente de Digitalización',
-    tag: 'Productividad',
-    url: 'https://hjalmarmeza.github.io/Digitalizacion/',
-    image: 'logos_opt/asistente_digitalizacion.jpg'
-  },
-  {
     id: 'biblia-cool',
     name: 'Biblia-Cool',
     tag: 'Estudio Bíblico',
