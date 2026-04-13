@@ -1,5 +1,13 @@
 export const projects = [
   {
+    id: 'musitube-automator',
+    name: 'MusiChris Studio',
+    tag: 'Automatización YouTube',
+    url: 'https://hjalmarmeza.github.io/MusiChris-Studio/',
+    image: 'https://raw.githubusercontent.com/hjalmarmeza/MusiChris-Studio/main/assets/hero.png',
+    featured: true
+  },
+  {
     id: 'talk-me',
     name: 'Talk.me',
     tag: 'Comunicación IA',
