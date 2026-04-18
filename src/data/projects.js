@@ -8,6 +8,14 @@ export const projects = [
     featured: true
   },
   {
+    id: 'musichris-shorts-engine',
+    name: 'MusiChris Shorts Engine',
+    tag: 'Cloud Video Automation',
+    url: 'https://hjalmarmeza.github.io/Musichris_Shorts/',
+    image: 'https://raw.githubusercontent.com/hjalmarmeza/Musichris_Shorts/main/logo.png',
+    featured: true
+  },
+  {
     id: 'talk-me',
     name: 'Talk.me',
     tag: 'Comunicación IA',
