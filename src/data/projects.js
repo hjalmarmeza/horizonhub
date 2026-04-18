@@ -12,7 +12,7 @@ export const projects = [
     name: 'MusiChris Shorts Engine',
     tag: 'Cloud Video Automation',
     url: 'https://hjalmarmeza.github.io/Musichris_Shorts/',
-    image: 'https://raw.githubusercontent.com/hjalmarmeza/Musichris_Shorts/main/logo.png',
+    image: 'https://raw.githubusercontent.com/hjalmarmeza/Musichris_Shorts/main/logo_shorts.png',
     featured: true
   },
   {
