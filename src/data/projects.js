@@ -11,7 +11,7 @@ export const projects = [
     id: 'musichris-live-station',
     name: 'MusiChris Live Station',
     tag: '24/7 Cloud Broadcast',
-    url: 'https://www.youtube.com/@HjalMusichrisStudio/live',
+    url: 'https://www.youtube.com/@Musichris_Studio',
     image: 'logos_opt/musichris_live.png',
     featured: true
   },
