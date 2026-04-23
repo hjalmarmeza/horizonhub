@@ -1,5 +1,21 @@
 export const projects = [
   {
+    id: 'musichris-soul',
+    name: 'MusiChris SOUL',
+    tag: 'GenAI Content Engine',
+    url: 'https://hjalmarmeza.github.io/Musichris_Soul/',
+    image: 'logos_opt/musichris_soul.png',
+    featured: true
+  },
+  {
+    id: 'musichris-live-station',
+    name: 'MusiChris Live Station',
+    tag: '24/7 Cloud Broadcast',
+    url: 'https://www.youtube.com/@MusiChrisStudio/live',
+    image: 'logos_opt/musichris_live.png',
+    featured: true
+  },
+  {
     id: 'musitube-automator',
     name: 'MusiChris Studio',
     tag: 'Automatización YouTube',
