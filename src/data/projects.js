@@ -1,5 +1,13 @@
 export const projects = [
   {
+    id: 'musichris-atmos',
+    name: 'MusiChris Atmos',
+    tag: 'Atmospheric Video Engine',
+    url: 'https://hjalmarmeza.github.io/Musichris_Atmos/',
+    image: 'https://raw.githubusercontent.com/hjalmarmeza/Musichris_Atmos/main/assets/logo_atmos.png',
+    featured: true
+  },
+  {
     id: 'musichris-soul',
     name: 'MusiChris SOUL',
     tag: 'GenAI Content Engine',
