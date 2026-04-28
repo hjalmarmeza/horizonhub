@@ -4,7 +4,7 @@ export const projects = [
     name: 'MusiChris Themes',
     tag: 'Cloud Video Forge',
     url: 'https://hjalmarmeza.github.io/Musichris_Themes/',
-    image: 'https://raw.githubusercontent.com/hjalmarmeza/Musichris_Themes/main/assets/logo_app.png',
+    image: 'logos_opt/musichris_themes_vertical.png',
     featured: true
   },
   {
