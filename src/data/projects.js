@@ -1,5 +1,13 @@
 export const projects = [
   {
+    id: 'musichris-themes',
+    name: 'MusiChris Themes',
+    tag: 'Cloud Video Forge',
+    url: 'https://hjalmarmeza.github.io/Musichris_Themes/',
+    image: 'https://raw.githubusercontent.com/hjalmarmeza/Musichris_Themes/main/assets/logo_app.png',
+    featured: true
+  },
+  {
     id: 'musichris-atmos',
     name: 'MusiChris Atmos',
     tag: 'Atmospheric Video Engine',
