@@ -12,7 +12,7 @@ export const projects = [
     name: 'MusiChris Breath',
     tag: 'Cloud Revelations Forge',
     url: 'https://hjalmarmeza.github.io/Musichris_Breath/',
-    image: 'https://raw.githubusercontent.com/hjalmarmeza/Musichris_Breath/main/logo.png',
+    image: 'https://raw.githubusercontent.com/hjalmarmeza/Musichris_Breath/main/assets/images/logo_breath.png',
     featured: true
   },
   {
