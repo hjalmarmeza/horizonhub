@@ -8,6 +8,14 @@ export const projects = [
     featured: true
   },
   {
+    id: 'musichris-breath',
+    name: 'MusiChris Breath',
+    tag: 'Cloud Revelations Forge',
+    url: 'https://hjalmarmeza.github.io/Musichris_Breath/',
+    image: 'https://raw.githubusercontent.com/hjalmarmeza/Musichris_Breath/main/logo.png',
+    featured: true
+  },
+  {
     id: 'musichris-atmos',
     name: 'MusiChris Atmos',
     tag: 'Atmospheric Video Engine',
