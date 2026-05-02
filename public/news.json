@@ -1,5 +1,12 @@
 [
   {
+    "id": "4",
+    "title": "MusiChris Comic Integrado",
+    "content": "¡Nueva Innovación! El motor de Motion Comic Autónomo ya está disponible en el ecosistema. Descubre la narrativa profética con IA.",
+    "date": "2026-05-02",
+    "type": "feature"
+  },
+  {
     "id": "3",
     "title": "Horizon Hub v2.0.1 (Live)",
     "content": "¡Actualización crítica completada! Se han optimizado todos los iconos y logos del ecosistema para una carga instantánea.",

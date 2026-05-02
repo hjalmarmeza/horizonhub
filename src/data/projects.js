@@ -56,6 +56,14 @@ export const projects = [
     featured: true
   },
   {
+    id: 'musichris-comic',
+    name: 'MusiChris Comic',
+    tag: 'Ministerial Motion Comic',
+    url: 'https://hjalmarmeza.github.io/Musichris_Comic/',
+    image: 'logos_opt/musichris_verse_vertical.png',
+    featured: true
+  },
+  {
     id: 'talk-me',
     name: 'Talk.me',
     tag: 'Comunicación IA',
