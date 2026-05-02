@@ -12,7 +12,7 @@ export const projects = [
     name: 'MusiChris Breath',
     tag: 'Cloud Revelations Forge',
     url: 'https://hjalmarmeza.github.io/Musichris_Breath/',
-    image: 'https://raw.githubusercontent.com/hjalmarmeza/Musichris_Breath/main/assets/images/logo_breath.png',
+    image: 'logos_opt/musichris_breath_vertical.png',
     featured: true
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     name: 'MusiChris Atmos',
     tag: 'Atmospheric Video Engine',
     url: 'https://hjalmarmeza.github.io/Musichris_Atmos/',
-    image: 'https://raw.githubusercontent.com/hjalmarmeza/Musichris_Atmos/main/assets/logo_atmos.png',
+    image: 'logos_opt/musichris_atmos_vertical.png',
     featured: true
   },
   {
@@ -44,7 +44,7 @@ export const projects = [
     name: 'MusiChris Studio',
     tag: 'Automatización YouTube',
     url: 'https://hjalmarmeza.github.io/MusiChris-Studio/',
-    image: 'https://raw.githubusercontent.com/hjalmarmeza/MusiChris-Studio/main/assets/hero.png',
+    image: 'logos_opt/musichris_studio_vertical.png',
     featured: true
   },
   {
@@ -52,7 +52,7 @@ export const projects = [
     name: 'MusiChris Shorts Engine',
     tag: 'Cloud Video Automation',
     url: 'https://hjalmarmeza.github.io/Musichris_Shorts/',
-    image: 'https://raw.githubusercontent.com/hjalmarmeza/Musichris_Shorts/main/logo.png',
+    image: 'logos_opt/musichris_shorts_vertical.png',
     featured: true
   },
   {
