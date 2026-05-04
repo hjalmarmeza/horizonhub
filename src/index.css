@@ -229,7 +229,8 @@ body {
 .project-card[data-category*="Voz"] { --glow-color: rgba(255, 120, 0, 0.7); } /* Orange/Melon */
 
 .project-card[data-category*="Personal"], 
-.project-card[data-category*="Networking"] { 
+.project-card[data-category*="Networking"],
+.project-card[data-category*="Ministerial"] { 
   --glow-color: rgba(255, 180, 0, 0.8); 
   --card-bg-crystal: rgba(255, 240, 200, 0.75);
 } /* Gold/Amber Deep */
