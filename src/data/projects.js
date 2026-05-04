@@ -3,7 +3,7 @@ export const projects = [
     id: 'musichris-devocional',
     name: 'MusiChris Devocional',
     tag: 'Daily Ministerial PWA',
-    url: 'https://hjalmarmeza.github.io/Musichris_Devocional/',
+    url: 'https://hjalmarmeza.github.io/devocional_app/',
     image: 'logos_opt/musichris_devocional_vertical.png',
     featured: true
   },
