@@ -1,5 +1,13 @@
 export const projects = [
   {
+    id: 'musichris-devocional',
+    name: 'MusiChris Devocional',
+    tag: 'Daily Ministerial PWA',
+    url: 'https://hjalmarmeza.github.io/MusiChris_Devocional/',
+    image: 'logos_opt/musichris_devocional_vertical.png',
+    featured: true
+  },
+  {
     id: 'musichris-themes',
     name: 'MusiChris Themes',
     tag: 'Cloud Video Forge',
