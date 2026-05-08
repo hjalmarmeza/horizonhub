@@ -67,7 +67,7 @@ export const projects = [
     id: 'musichris-comic',
     name: 'MusiChris Comic',
     tag: 'Ministerial Motion Comic',
-    url: 'https://hjalmarmeza.github.io/Musichris_Comic/',
+    url: 'https://hjalmarmeza.github.io/musichris_comic/',
     image: 'logos_opt/musichris_verse_vertical.png',
     featured: true
   },
