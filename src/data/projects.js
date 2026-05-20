@@ -8,6 +8,14 @@ export const projects = [
     featured: true
   },
   {
+    id: 'musichris-radio',
+    name: 'MusiChris Studio Radio',
+    tag: 'Radio & Inbox Ministerial PWA',
+    url: 'https://hjalmarmeza.github.io/Musichristudio_radio/',
+    image: 'logos_opt/musichris_radio_vertical.png',
+    featured: true
+  },
+  {
     id: 'musichris-themes',
     name: 'MusiChris Themes',
     tag: 'Cloud Video Forge',
