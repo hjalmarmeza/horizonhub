@@ -3,7 +3,7 @@ export const projects = [
     id: 'reliclens',
     name: 'RelicLens',
     tag: 'Tasación de Antigüedades IA',
-    url: 'https://hjalmarmeza.github.io/RelicLens/',
+    url: 'https://relic-lens.vercel.app/',
     image: 'logos_opt/reliclens.jpg',
     featured: true
   },
