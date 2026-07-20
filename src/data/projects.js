@@ -1,5 +1,13 @@
 export const projects = [
   {
+    id: 'reliclens',
+    name: 'RelicLens',
+    tag: 'Tasación de Antigüedades IA',
+    url: 'https://hjalmarmeza.github.io/RelicLens/',
+    image: 'logos_opt/reliclens.jpg',
+    featured: true
+  },
+  {
     id: 'musichris-devocional',
     name: 'MusiChris Devocional',
     tag: 'Daily Ministerial PWA',
