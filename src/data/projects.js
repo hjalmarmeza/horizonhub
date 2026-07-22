@@ -231,7 +231,7 @@ export const projects = [
     id: 'linkedin-ia',
     name: 'LinkedIn IA',
     tag: 'Productividad',
-    url: 'https://hjalmarmeza.github.io/linkedin-ia/',
+    url: 'http://161.153.197.23:3085',
     image: 'logos_opt/linkedin_ia.jpg'
   },
 
