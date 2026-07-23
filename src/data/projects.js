@@ -1,5 +1,21 @@
 export const projects = [
   {
+    id: 'cvportatil-ai',
+    name: 'CV Portátil AI',
+    tag: 'Generador Ejecutivo IA',
+    url: 'https://hjalmarmeza.github.io/CVPortatil-AI/',
+    image: 'logos_opt/cvportatil_ai.jpg',
+    featured: true
+  },
+  {
+    id: 'blockfit',
+    name: 'BlockFit Premium',
+    tag: 'Fitness & Workout PWA',
+    url: 'https://hjalmarmeza.github.io/blockFit/',
+    image: 'logos_opt/blockfit.jpg',
+    featured: true
+  },
+  {
     id: 'reliclens',
     name: 'RelicLens',
     tag: 'Tasación de Antigüedades IA',
