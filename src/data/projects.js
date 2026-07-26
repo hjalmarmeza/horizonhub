@@ -1,5 +1,13 @@
 export const projects = [
   {
+    id: 'allimentate',
+    name: 'AlliMéntate',
+    tag: 'Recetario IA',
+    url: 'https://allimentate.vercel.app',
+    image: 'https://allimentate.vercel.app/assets/logo.jpg',
+    featured: true
+  },
+  {
     id: 'cvportatil-ai',
     name: 'CV Portátil AI',
     tag: 'Generador Ejecutivo IA',
