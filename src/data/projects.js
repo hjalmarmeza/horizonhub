@@ -1,5 +1,13 @@
 export const projects = [
   {
+    id: 'adora',
+    name: '¡Adora!',
+    tag: 'Repositorio Premium',
+    url: 'https://adora-c26u-henna.vercel.app',
+    image: 'https://adora-c26u-henna.vercel.app/icons/adora_logo.jpg',
+    featured: true
+  },
+  {
     id: 'allimentate',
     name: 'AlliMéntate',
     tag: 'Recetario IA',
