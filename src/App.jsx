@@ -5,7 +5,7 @@ import ProjectCard from './components/ProjectCard';
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
 
-
+  useEffect(() => {
     // iOS Background Heartbeat Activator
     function initAudioHack() {
       const silentAudio = document.getElementById('iosWakeAudio');
