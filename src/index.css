@@ -30,6 +30,7 @@ body {
   padding-bottom: calc(var(--safe-bottom) + 20px);
   /* Prevent horizontal scroll and bounce in mobile browser */
   overflow-x: hidden;
+  overscroll-behavior: none;
   position: relative;
   width: 100%;
 }
