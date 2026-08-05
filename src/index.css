@@ -120,68 +120,7 @@ body {
   color: rgba(255,255,255,0.6);
 }
 
-/* Controls Section */
-.controls-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 30px;
-  padding: 0 10px;
-}
 
-.view-switcher {
-  display: flex;
-  background: rgba(255, 255, 255, 0.1);
-  padding: 4px;
-  border-radius: 12px;
-  gap: 4px;
-}
-
-.view-btn {
-  border: none;
-  background: transparent;
-  color: white;
-  padding: 8px 16px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-family: inherit;
-  font-size: 0.9rem;
-  transition: all 0.2s ease;
-  opacity: 0.6;
-}
-
-.view-btn.active {
-  background: rgba(255, 255, 255, 0.2);
-  opacity: 1;
-}
-
-.news-bell {
-  position: relative;
-  cursor: pointer;
-  background: rgba(255, 255, 255, 0.1);
-  width: 44px;
-  height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-}
-
-.news-bell:hover {
-  background: rgba(255, 255, 255, 0.2);
-}
-
-.news-badge {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: #ff3b30;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  border: 2px solid #1c1c1e;
-}
 
 /* Crystal Morphing & Quick Preview */
 .project-card {
@@ -265,29 +204,7 @@ body {
   }
 }
 
-.news-item {
-  margin-bottom: 20px;
-  padding-bottom: 15px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
 
-.news-item:last-child {
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-
-.news-item h4 {
-  font-size: 1rem;
-  margin-bottom: 4px;
-  color: white;
-}
-
-.news-item p {
-  font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.6);
-  line-height: 1.4;
-}
 
 /* List View Styles */
 .launchpad-grid.list-view {
@@ -522,14 +439,6 @@ img {
     padding: 24px;
     top: 50%;
     transform: translate(-50%, -50%);
-  }
-  
-  .controls-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 25px;
-    padding: 0;
   }
   
   .hero-section { 

@@ -4,21 +4,7 @@ import ProjectCard from './components/ProjectCard';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
-  const [showNews, setShowNews] = useState(false);
-  const [news, setNews] = useState([]);
-  
-  useEffect(() => {
-    // Fetch News Feed with cache busting
-    const fetchNews = async () => {
-      try {
-        const response = await fetch('./news.json?t=' + Date.now());
-        const data = await response.json();
-        setNews(data);
-      } catch (err) {
-        console.error('News fetch failed:', err);
-      }
-    };
-    fetchNews();
+
 
     // iOS Background Heartbeat Activator
     function initAudioHack() {
@@ -48,6 +34,23 @@ function App() {
           <h1 className="hero-title">HORIZON HUB</h1>
           <p className="hero-subtitle">Tu ecosistema de aplicaciones, a un clic de distancia.</p>
           
+          <div className="stats-badge" style={{
+            display: 'inline-block',
+            marginBottom: '25px',
+            background: 'rgba(255, 255, 255, 0.1)',
+            padding: '6px 16px',
+            borderRadius: '20px',
+            backdropFilter: 'blur(10px)',
+            color: 'rgba(255, 255, 255, 0.9)',
+            fontSize: '0.9rem',
+            fontWeight: '600',
+            letterSpacing: '1px',
+            textTransform: 'uppercase',
+            border: '1px solid rgba(255, 255, 255, 0.2)'
+          }}>
+             {filteredProjects.length} {filteredProjects.length === 1 ? 'App / Widget' : 'Apps & Widgets'}
+          </div>
+          
           <div className="search-container">
             <input 
               type="text" 
@@ -59,32 +62,6 @@ function App() {
           </div>
         </div>
       </section>
-
-      <div className="controls-bar" style={{justifyContent: 'flex-end'}}>
-        <div className="news-bell" onClick={() => setShowNews(!showNews)}>
-          <span>🔔</span>
-          {news.length > 0 && <div className="news-badge"></div>}
-        </div>
-      </div>
-
-      {showNews && (
-        <div className="news-panel">
-          <h3>Novedades</h3>
-          {news.map(item => (
-            <div key={item.id} className="news-item">
-              <h4>{item.title}</h4>
-              <p>{item.content}</p>
-              <small style={{opacity: 0.5}}>{item.date}</small>
-            </div>
-          ))}
-          <button 
-            onClick={() => setShowNews(false)}
-            style={{marginTop: '15px', background: 'none', border: '1px solid #444', color: 'white', borderRadius: '8px', padding: '5px 10px', width: '100%'}}
-          >
-            Cerrar
-          </button>
-        </div>
-      )}
 
       <main>
         <section className="launchpad-grid">
