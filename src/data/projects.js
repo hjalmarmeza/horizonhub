@@ -8,6 +8,14 @@ export const projects = [
     featured: true
   },
   {
+    id: 'tempo',
+    name: 'Tempo',
+    tag: 'Productividad',
+    url: 'https://tempo-agenda-93820.web.app',
+    image: 'https://tempo-agenda-93820.web.app/apple-touch-icon-180-v4.png',
+    featured: true
+  },
+  {
     id: 'allimentate',
     name: 'AlliMéntate',
     tag: 'Recetario IA',
